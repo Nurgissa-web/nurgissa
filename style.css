@@ -1,0 +1,248 @@
+body{
+    background-color: #E5E5E5;
+    font-family: 'Roboto', sans-serif;
+    color: #333333;
+    font-size: 14px;
+}
+.wrapper{
+    max-width: 1110px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding-left: 0;
+}
+.nav>li{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.nav>li>a{
+text-decoration: none;
+color: #333333 ;
+}
+.header{
+    background-color: #E5E5E5;
+}
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+.logo{
+    color: #66C05D;
+    font-size: 36px;
+    font-weight: 700px;
+    display: flex;
+    align-items: center;
+}
+.logo-image{
+    display: block;
+    width: 80px;
+    height: 80px;
+    background-image: url(../img/logo.svg);
+    margin-right: 10px;
+}
+.header-info span{
+    font-size: 16px;
+
+}
+.header-info button{
+    font-size: 14px;
+    border-radius: 10px;
+    border: 2px solid #66C05D;
+    background-color: transparent;
+    padding: 10px 15px;
+    margin-left: 20px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.header-info button:hover{
+ background-color: #66C05D;
+}
+.header-bottom{
+    padding: 15px 0;
+}
+.header-bottom .nav{
+font-size: 16px;
+margin: 0;
+}
+.hr{
+    border: none;
+    background-color: #E5E5E5;
+    height: 1px;
+}
+.banner{
+   background-image: url(../img/bg.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+   padding-top: 150x;
+   padding-bottom: 100px;
+   color: #E5E5E5;
+}
+.title{
+    font-size: 48px;
+    font-weight: 700px;
+    margin-bottom: 39px;
+}
+.title-h2{
+ font-size: 24px;
+ font-weight: 700px;
+
+}
+.banner p{
+    margin-bottom: 50px;
+    max-width: 315px;
+}
+.btn{
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+    background-color: transparent;
+    padding: 10px 15px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #ffff;
+    color: #333333;
+
+}
+.bg-white{
+    background-color: #fff;
+}
+.bg-green{
+    background-color: #66C05D;
+    color: #fff;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bg-green-item{
+    flex: 0 0 50%;
+}
+.bg-green-item-img{
+    flex: 0 0 40%;
+    text-align: center;
+}
+.bg-green h3{
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 0;
+}
+.bg-greeninput{
+    font-size: 14px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    padding: 10px 15px;
+}
+.bg-green .btn{
+    display: block;
+    text-align: center;
+    max-width: 150px;
+}
+.catalog{
+    padding-top: 100px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 0 30px;
+}
+.grid-item-title{
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+.grid-item-img{
+    grid-column: 4/5;
+    grid-row: 1/2;
+    text-align: center;
+}
+.grid-item-left{
+    grid-column: 1/3;
+    grid-row: 3/4;
+}
+.grid-item-right{
+    grid-column: 3/5;
+    grid-row: 3/4;
+}
+.grid-item-catalog{
+    text-align: center;
+}
+.grid-item-catalog.bg-white{
+ padding: 15px 30px;
+}
+.grid-price{
+    font-size: 21px;
+    font-weight: 500;
+}
+.grid-btn{
+    border-radius: 20px;
+    border: 2px solid #66C05D;
+    background-color: #66C05D;
+    color: #fff;
+    padding: 10px 25px;
+    text-decoration: none;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.footer-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-info span{
+    font-size: 16px;
+}
+.footer-info button:hover{
+background-color: #66C05D;
+}
+.social{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    padding-left: 0;
+}
+.social-item{
+    margin-right: 20px;
+}
+.social-link{
+    display: block;
+    width: 15px;
+    height: 45px;
+    border: 2px solid #66C05D;
+    border-radius: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.social-youtube{
+    background-image: url(../img/youtube.svg);
+}
+.social-vk{
+    background-image: url(../img/vk.svg);
+}
+.social-fb{
+    background-image: url(../img/facebook.svg);
+}
+.social-insta{
+    background-image: url(../img/instagram.svg);
+}
+.footer-bootom{
+    display: flex;
+    justify-content: space-between;
+    color: #828282;
+    padding: 15px 0;
+}
+.footer-bottom p{
+    margin: 0;
+}
+.footer-bootom a{
+    color: #828282;
+    text-decoration: none;
